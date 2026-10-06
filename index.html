@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#2563eb"/><meta name="description" content="College class companion app"/>
+<link rel="manifest" href="manifest.json"/><link rel="icon" href="icon.svg"/>
+<title>ClassMate</title><link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="app">
+<header class="topbar"><div><div class="brand">ClassMate</div><div id="classLabel" class="muted">My College Class</div></div><button class="icon-btn" id="adminBtn" aria-label="Admin">⚙️</button></header>
+<main id="screen"></main>
+<nav class="bottom-nav" id="nav">
+<button data-page="home">🏠<span>Home</span></button><button data-page="announcements">📢<span>News</span></button><button data-page="timetable">📅<span>Timetable</span></button><button data-page="study">📚<span>Study</span></button><button data-page="more">☰<span>More</span></button>
+</nav>
+</div>
+<div id="modal" class="modal hidden"><div class="modal-card"><div class="modal-head"><h3 id="modalTitle">Admin</h3><button id="closeModal">✕</button></div><div id="modalBody"></div></div></div>
+<script src="app.js"></script>
+</body></html>
